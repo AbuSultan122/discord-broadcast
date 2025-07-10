@@ -2,24 +2,24 @@ module.exports = {
     bot: {
         tokens: [
           "YOUR_BOT_TOKEN_HERE",              // Main bot token - Replace with your actual token
-        //  "YOUR_SECOND_BOT_TOKEN_HERE",      // 2 bot token - Uncomment and replace to use
-        //  "YOUR_THIRD_BOT_TOKEN_HERE",       // 3 bot token - Uncomment and replace to use
-        //  "YOUR_FOURTH_BOT_TOKEN_HERE",      // 4 bot token - Uncomment and replace to use
-        //  "YOUR_FIFTH_BOT_TOKEN_HERE",       // 5 bot token - Uncomment and replace to use
+        //  "MTM5MDYyMjY3Mjg3ODE3NDI5OQ.GdBdgJ.MIMWMXpcA6DYBUXYHUSYQTlCiXJLMOLYlOQyNU",      // 2 bot token - Uncomment and replace to use
+        
+        
+        
         ].filter(Boolean),
 
         defaultLanguage: 'ar', // ar | en لغة البوت
         
         activity: {
-            name: 'Wick Studio', // رسالة حالة البوت
+            name: 'Shm3 store', // رسالة حالة البوت
             type: 'WATCHING', // PLAYING, STREAMING, LISTENING, WATCHING, COMPETING
             status: 'dnd' // online, idle, dnd, invisible
         }
     },
     server: {
-        guildId: 'ID',         // ايدي السيرفر
-        broadcastRoleId: 'ID', // ايدي الرول اللي يستخدم عليها البوت
-        reportChannelId: 'ID' // ايدي الروم اللي يرسل فيه البوت التقارير
+        guildId: '1372318763751444621',         // ايدي السيرفر
+        broadcastRoleId: '1372319213527765163', // ايدي الرول اللي يستخدم عليها البوت
+        reportChannelId: '1372318944148324365' // ايدي الروم اللي يرسل فيه البوت التقارير
     },
     broadcast: {
         cooldownTime: 1000, // لا تلعب فيها
